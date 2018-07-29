@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "SavannaKit::SavannaKit"
-               BuildableName = "SavannaKit.framework"
-               BlueprintName = "SavannaKit"
+               BlueprintIdentifier = "savannakit::savannakit"
+               BuildableName = "savannakit.framework"
+               BlueprintName = "savannakit"
                ReferencedContainer = "container:SavannaKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,6 +28,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "savannakit::savannakitTests"
+               BuildableName = "savannakitTests.xctest"
+               BlueprintName = "savannakitTests"
+               ReferencedContainer = "container:SavannaKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <AdditionalOptions>
       </AdditionalOptions>
@@ -45,9 +55,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "SavannaKit::SavannaKit"
-            BuildableName = "SavannaKit.framework"
-            BlueprintName = "SavannaKit"
+            BlueprintIdentifier = "savannakit::savannakit"
+            BuildableName = "savannakit.framework"
+            BlueprintName = "savannakit"
             ReferencedContainer = "container:SavannaKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

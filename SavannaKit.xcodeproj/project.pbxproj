@@ -6,26 +6,60 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		"savannakit::savannakitPackageTests::ProductTarget" /* savannakitPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_68 /* Build configuration list for PBXAggregateTarget "savannakitPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_71 /* PBXTargetDependency */,
+			);
+			name = savannakitPackageTests;
+			productName = savannakitPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		OBJ_40 /* ASTVisualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* ASTVisualizer.swift */; };
-		OBJ_41 /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Lexer.swift */; };
-		OBJ_42 /* Paragraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Paragraph.swift */; };
-		OBJ_43 /* RegexLexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* RegexLexer.swift */; };
-		OBJ_44 /* SyntaxColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* SyntaxColorTheme.swift */; };
-		OBJ_45 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Token.swift */; };
-		OBJ_46 /* NSMutableAttributedString+Tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* NSMutableAttributedString+Tokens.swift */; };
-		OBJ_47 /* NSTextView+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* NSTextView+UIKit.swift */; };
-		OBJ_48 /* String+Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* String+Range.swift */; };
-		OBJ_49 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Types.swift */; };
-		OBJ_50 /* InnerTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* InnerTextView.swift */; };
-		OBJ_51 /* LineNumberLayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* LineNumberLayoutManager.swift */; };
-		OBJ_52 /* Paragraphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Paragraphs.swift */; };
-		OBJ_53 /* SyntaxTextView+TextViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* SyntaxTextView+TextViewDelegate.swift */; };
-		OBJ_54 /* SyntaxTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* SyntaxTextView.swift */; };
-		OBJ_55 /* SyntaxTextViewLayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* SyntaxTextViewLayoutManager.swift */; };
-		OBJ_56 /* TextViewWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* TextViewWrapperView.swift */; };
-		OBJ_63 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_43 /* ASTVisualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* ASTVisualizer.swift */; };
+		OBJ_44 /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Lexer.swift */; };
+		OBJ_45 /* Paragraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Paragraph.swift */; };
+		OBJ_46 /* RegexLexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* RegexLexer.swift */; };
+		OBJ_47 /* SyntaxColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* SyntaxColorTheme.swift */; };
+		OBJ_48 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Token.swift */; };
+		OBJ_49 /* NSMutableAttributedString+Tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* NSMutableAttributedString+Tokens.swift */; };
+		OBJ_50 /* NSTextView+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* NSTextView+UIKit.swift */; };
+		OBJ_51 /* String+Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* String+Range.swift */; };
+		OBJ_52 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Types.swift */; };
+		OBJ_53 /* InnerTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* InnerTextView.swift */; };
+		OBJ_54 /* LineNumberLayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* LineNumberLayoutManager.swift */; };
+		OBJ_55 /* Paragraphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Paragraphs.swift */; };
+		OBJ_56 /* SyntaxTextView+TextViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* SyntaxTextView+TextViewDelegate.swift */; };
+		OBJ_57 /* SyntaxTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* SyntaxTextView.swift */; };
+		OBJ_58 /* SyntaxTextViewLayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* SyntaxTextViewLayoutManager.swift */; };
+		OBJ_59 /* TextViewWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* TextViewWrapperView.swift */; };
+		OBJ_66 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_78 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* XCTestManifests.swift */; };
+		OBJ_79 /* savannakitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* savannakitTests.swift */; };
+		OBJ_81 /* savannakit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "savannakit::savannakit::Product" /* savannakit.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		431002CB210E700F00886007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "savannakit::savannakit";
+			remoteInfo = savannakit;
+		};
+		431002CC210E700F00886007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "savannakit::savannakitTests";
+			remoteInfo = savannakitTests;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		OBJ_11 /* Lexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lexer.swift; sourceTree = "<group>"; };
@@ -44,18 +78,28 @@
 		OBJ_26 /* SyntaxTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxTextView.swift; sourceTree = "<group>"; };
 		OBJ_27 /* SyntaxTextViewLayoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxTextViewLayoutManager.swift; sourceTree = "<group>"; };
 		OBJ_28 /* TextViewWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewWrapperView.swift; sourceTree = "<group>"; };
-		OBJ_31 /* readme-resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "readme-resources"; sourceTree = SOURCE_ROOT; };
-		OBJ_32 /* SavannaKitTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SavannaKitTests; sourceTree = SOURCE_ROOT; };
+		OBJ_32 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_33 /* savannakitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savannakitTests.swift; sourceTree = "<group>"; };
+		OBJ_34 /* readme-resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "readme-resources"; sourceTree = SOURCE_ROOT; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* ASTVisualizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASTVisualizer.swift; sourceTree = "<group>"; };
-		"SavannaKit::SavannaKit::Product" /* SavannaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SavannaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"savannakit::savannakit::Product" /* savannakit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = savannakit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"savannakit::savannakitTests::Product" /* savannakitTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = savannakitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_57 /* Frameworks */ = {
+		OBJ_60 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_81 /* savannakit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,15 +146,26 @@
 		OBJ_29 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_32 /* SavannaKitTests */,
+				OBJ_30 /* savannakitTests */,
 			);
 			name = Tests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_33 /* Products */ = {
+		OBJ_30 /* savannakitTests */ = {
 			isa = PBXGroup;
 			children = (
-				"SavannaKit::SavannaKit::Product" /* SavannaKit.framework */,
+				OBJ_32 /* XCTestManifests.swift */,
+				OBJ_33 /* savannakitTests.swift */,
+			);
+			name = savannakitTests;
+			path = Tests/savannakitTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"savannakit::savannakitTests::Product" /* savannakitTests.xctest */,
+				"savannakit::savannakit::Product" /* savannakit.framework */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -121,8 +176,8 @@
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_29 /* Tests */,
-				OBJ_31 /* readme-resources */,
-				OBJ_33 /* Products */,
+				OBJ_34 /* readme-resources */,
+				OBJ_35 /* Products */,
 			);
 			name = "";
 			sourceTree = "<group>";
@@ -130,12 +185,12 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_8 /* SavannaKit */,
+				OBJ_8 /* savannakit */,
 			);
 			name = Sources;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_8 /* SavannaKit */ = {
+		OBJ_8 /* savannakit */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_9 /* ASTVisualizer.swift */,
@@ -143,42 +198,59 @@
 				OBJ_16 /* Util */,
 				OBJ_21 /* View */,
 			);
-			name = SavannaKit;
-			path = Sources/SavannaKit;
+			name = savannakit;
+			path = Sources/savannakit;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		"SavannaKit::SavannaKit" /* SavannaKit */ = {
+		"savannakit::SwiftPMPackageDescription" /* savannakitPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_36 /* Build configuration list for PBXNativeTarget "SavannaKit" */;
+			buildConfigurationList = OBJ_62 /* Build configuration list for PBXNativeTarget "savannakitPackageDescription" */;
 			buildPhases = (
-				OBJ_39 /* Sources */,
-				OBJ_57 /* Frameworks */,
+				OBJ_65 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SavannaKit;
-			productName = SavannaKit;
-			productReference = "SavannaKit::SavannaKit::Product" /* SavannaKit.framework */;
+			name = savannakitPackageDescription;
+			productName = savannakitPackageDescription;
 			productType = "com.apple.product-type.framework";
 		};
-		"SavannaKit::SwiftPMPackageDescription" /* SavannaKitPackageDescription */ = {
+		"savannakit::savannakit" /* savannakit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_59 /* Build configuration list for PBXNativeTarget "SavannaKitPackageDescription" */;
+			buildConfigurationList = OBJ_39 /* Build configuration list for PBXNativeTarget "savannakit" */;
 			buildPhases = (
-				OBJ_62 /* Sources */,
+				OBJ_42 /* Sources */,
+				OBJ_60 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SavannaKitPackageDescription;
-			productName = SavannaKitPackageDescription;
+			name = savannakit;
+			productName = savannakit;
+			productReference = "savannakit::savannakit::Product" /* savannakit.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		"savannakit::savannakitTests" /* savannakitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_73 /* Build configuration list for PBXNativeTarget "savannakitTests" */;
+			buildPhases = (
+				OBJ_76 /* Sources */,
+				OBJ_80 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_82 /* PBXTargetDependency */,
+			);
+			name = savannakitTests;
+			productName = savannakitTests;
+			productReference = "savannakit::savannakitTests::Product" /* savannakitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -196,50 +268,74 @@
 				en,
 			);
 			mainGroup = OBJ_5 /*  */;
-			productRefGroup = OBJ_33 /* Products */;
+			productRefGroup = OBJ_35 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				"SavannaKit::SavannaKit" /* SavannaKit */,
-				"SavannaKit::SwiftPMPackageDescription" /* SavannaKitPackageDescription */,
+				"savannakit::savannakit" /* savannakit */,
+				"savannakit::SwiftPMPackageDescription" /* savannakitPackageDescription */,
+				"savannakit::savannakitPackageTests::ProductTarget" /* savannakitPackageTests */,
+				"savannakit::savannakitTests" /* savannakitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_39 /* Sources */ = {
+		OBJ_42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_40 /* ASTVisualizer.swift in Sources */,
-				OBJ_41 /* Lexer.swift in Sources */,
-				OBJ_42 /* Paragraph.swift in Sources */,
-				OBJ_43 /* RegexLexer.swift in Sources */,
-				OBJ_44 /* SyntaxColorTheme.swift in Sources */,
-				OBJ_45 /* Token.swift in Sources */,
-				OBJ_46 /* NSMutableAttributedString+Tokens.swift in Sources */,
-				OBJ_47 /* NSTextView+UIKit.swift in Sources */,
-				OBJ_48 /* String+Range.swift in Sources */,
-				OBJ_49 /* Types.swift in Sources */,
-				OBJ_50 /* InnerTextView.swift in Sources */,
-				OBJ_51 /* LineNumberLayoutManager.swift in Sources */,
-				OBJ_52 /* Paragraphs.swift in Sources */,
-				OBJ_53 /* SyntaxTextView+TextViewDelegate.swift in Sources */,
-				OBJ_54 /* SyntaxTextView.swift in Sources */,
-				OBJ_55 /* SyntaxTextViewLayoutManager.swift in Sources */,
-				OBJ_56 /* TextViewWrapperView.swift in Sources */,
+				OBJ_43 /* ASTVisualizer.swift in Sources */,
+				OBJ_44 /* Lexer.swift in Sources */,
+				OBJ_45 /* Paragraph.swift in Sources */,
+				OBJ_46 /* RegexLexer.swift in Sources */,
+				OBJ_47 /* SyntaxColorTheme.swift in Sources */,
+				OBJ_48 /* Token.swift in Sources */,
+				OBJ_49 /* NSMutableAttributedString+Tokens.swift in Sources */,
+				OBJ_50 /* NSTextView+UIKit.swift in Sources */,
+				OBJ_51 /* String+Range.swift in Sources */,
+				OBJ_52 /* Types.swift in Sources */,
+				OBJ_53 /* InnerTextView.swift in Sources */,
+				OBJ_54 /* LineNumberLayoutManager.swift in Sources */,
+				OBJ_55 /* Paragraphs.swift in Sources */,
+				OBJ_56 /* SyntaxTextView+TextViewDelegate.swift in Sources */,
+				OBJ_57 /* SyntaxTextView.swift in Sources */,
+				OBJ_58 /* SyntaxTextViewLayoutManager.swift in Sources */,
+				OBJ_59 /* TextViewWrapperView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_62 /* Sources */ = {
+		OBJ_65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_63 /* Package.swift in Sources */,
+				OBJ_66 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_78 /* XCTestManifests.swift in Sources */,
+				OBJ_79 /* savannakitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "savannakit::savannakitTests" /* savannakitTests */;
+			targetProxy = 431002CC210E700F00886007 /* PBXContainerItemProxy */;
+		};
+		OBJ_82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "savannakit::savannakit" /* savannakit */;
+			targetProxy = 431002CB210E700F00886007 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		OBJ_3 /* Debug */ = {
@@ -264,52 +360,6 @@
 			};
 			name = Debug;
 		};
-		OBJ_37 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = SavannaKit.xcodeproj/SavannaKit_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = SavannaKit;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = SavannaKit;
-			};
-			name = Debug;
-		};
-		OBJ_38 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = SavannaKit.xcodeproj/SavannaKit_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = SavannaKit;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = SavannaKit;
-			};
-			name = Release;
-		};
 		OBJ_4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -330,21 +380,117 @@
 			};
 			name = Release;
 		};
-		OBJ_60 /* Debug */ = {
+		OBJ_40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 3 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
-				SWIFT_VERSION = 3.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = savannakit.xcodeproj/savannakit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = savannakit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = savannakit;
 			};
 			name = Debug;
 		};
-		OBJ_61 /* Release */ = {
+		OBJ_41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = savannakit.xcodeproj/savannakit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = savannakit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = savannakit;
+			};
+			name = Release;
+		};
+		OBJ_63 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 3 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
-				SWIFT_VERSION = 3.0;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = savannakit.xcodeproj/savannakitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = savannakitTests;
+			};
+			name = Debug;
+		};
+		OBJ_75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = savannakit.xcodeproj/savannakitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = savannakitTests;
 			};
 			name = Release;
 		};
@@ -360,20 +506,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_36 /* Build configuration list for PBXNativeTarget "SavannaKit" */ = {
+		OBJ_39 /* Build configuration list for PBXNativeTarget "savannakit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_37 /* Debug */,
-				OBJ_38 /* Release */,
+				OBJ_40 /* Debug */,
+				OBJ_41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_59 /* Build configuration list for PBXNativeTarget "SavannaKitPackageDescription" */ = {
+		OBJ_62 /* Build configuration list for PBXNativeTarget "savannakitPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_60 /* Debug */,
-				OBJ_61 /* Release */,
+				OBJ_63 /* Debug */,
+				OBJ_64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_68 /* Build configuration list for PBXAggregateTarget "savannakitPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_69 /* Debug */,
+				OBJ_70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_73 /* Build configuration list for PBXNativeTarget "savannakitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_74 /* Debug */,
+				OBJ_75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

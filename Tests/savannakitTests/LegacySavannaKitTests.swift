@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import SavannaKit
+@testable import SavannaKitPackageDescription
 
 public enum TestTokenType: Equatable {
 	case keyword
