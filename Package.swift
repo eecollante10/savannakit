@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "savannakit",
             dependencies: [],
-            path: "sources"),
+            path: "Sources"),
         .testTarget(
             name: "savannakitTests",
             dependencies: ["savannakit"]),
