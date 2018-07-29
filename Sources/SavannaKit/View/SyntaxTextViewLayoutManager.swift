@@ -22,7 +22,7 @@ public enum EditorPlaceholderState {
 
 public extension NSAttributedStringKey {
 	
-	static public let editorPlaceholder = NSAttributedStringKey("editorPlaceholder")
+	static public let editorPlaceholder = NSAttributedStringKey(rawValue: "editorPlaceholder")
 
 }
 
@@ -48,7 +48,7 @@ class SyntaxTextViewLayoutManager: NSLayoutManager {
 		
 		var placeholders = [(CGRect, EditorPlaceholderState)]()
 		
-		textStorage?.enumerateAttribute(.editorPlaceholder, in: range, options: [], using: { (value, range, stop) in
+        textStorage?.enumerateAttribute(NSAttributedStringKey.editorPlaceholder , in: range, options: [], using: { (value, range, stop) in
 			
 			if let state = value as? EditorPlaceholderState {
 				

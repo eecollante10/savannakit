@@ -16,6 +16,7 @@ import AppKit
 import UIKit
 #endif
 
+@available(OSX 10.11, *)
 class LineNumberLayoutManager: NSLayoutManager {
 	
 	var lastParaLocation = 0
@@ -102,8 +103,8 @@ class LineNumberLayoutManager: NSLayoutManager {
 				gutterRect = CGRect(x: 0, y: rect.origin.y, width: self.gutterWidth, height: rect.size.height).offsetBy(dx: origin.x, dy: origin.y)
 				paraNumber = self._paraNumber(for: charRange)
 				let ln = "\(Int(UInt(paraNumber)) + 1)"
-				let size: CGSize = ln.size(withAttributes: atts)
-				ln.draw(in: gutterRect.offsetBy(dx: gutterRect.width - 4 - size.width, dy: 0), withAttributes: atts)
+                let size: CGSize = ln.size(withAttributes: atts)
+                ln.draw(in: gutterRect.offsetBy(dx: gutterRect.width - 4 - size.width, dy: 0), withAttributes: atts)
 			}
 		})
 		
@@ -114,9 +115,9 @@ class LineNumberLayoutManager: NSLayoutManager {
 		if self.textStorage!.string.isEmpty || self.textStorage!.string.hasSuffix("\n") {
 
 			let ln = "\(Int(UInt(paraNumber)) + 2)"
-			let size: CGSize = ln.size(withAttributes: atts)
+            let size: CGSize = ln.size(withAttributes: atts)
 			gutterRect = gutterRect.offsetBy(dx: 0.0, dy: gutterRect.height)
-			ln.draw(in: gutterRect.offsetBy(dx: gutterRect.width - 4 - size.width, dy: 0), withAttributes: atts)
+            ln.draw(in: gutterRect.offsetBy(dx: gutterRect.width - 4 - size.width, dy: 0), withAttributes: atts)
 			
 		}
 		

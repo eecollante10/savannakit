@@ -15,6 +15,7 @@ import CoreGraphics
 	import UIKit
 #endif
 
+@available(OSX 10.11, *)
 public protocol SyntaxTextViewDelegate: class {
 	
 	func didChangeText(_ syntaxTextView: SyntaxTextView)
@@ -35,6 +36,7 @@ struct ThemeInfo {
 	
 }
 
+@available(OSX 10.11, *)
 @IBDesignable
 open class SyntaxTextView: View {
 
@@ -177,14 +179,14 @@ open class SyntaxTextView: View {
 			scrollView.documentView = textView
 			
 			scrollView.contentView.postsBoundsChangedNotifications = true
-			
-			NotificationCenter.default.addObserver(self, selector: #selector(didScroll(_:)), name: NSView.boundsDidChangeNotification, object: scrollView.contentView)
+        
+            NotificationCenter.default.addObserver(self, selector: #selector(didScroll(_:)), name: NSView.boundsDidChangeNotification, object: scrollView.contentView)
 			
 			textView.minSize = NSSize(width: 0.0, height: self.bounds.height)
 			textView.maxSize = NSSize(width: CGFloat.greatestFiniteMagnitude, height: CGFloat.greatestFiniteMagnitude)
 			textView.isVerticallyResizable = true
 			textView.isHorizontallyResizable = false
-			textView.autoresizingMask = [.width, .height]
+        textView.autoresizingMask = [.width, .height]
 			textView.isEditable = true
 			textView.isAutomaticQuoteSubstitutionEnabled = false
 			textView.allowsUndo = true

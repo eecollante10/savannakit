@@ -28,12 +28,13 @@ struct Paragraph {
 		
 		let attr = NSMutableAttributedString(string: string)
 		let range = NSMakeRange(0, attr.length)
-		
+
+        //NSFontAttributeName
 		let attributes: [NSAttributedStringKey: Any] = [
-			.font: style.font,
-			.foregroundColor : style.textColor
+            .font : style.font,
+			.foregroundColor : style.textColor,
 		]
-		
+        
 		attr.addAttributes(attributes, range: range)
 		
 		return attr

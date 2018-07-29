@@ -22,7 +22,11 @@ public extension NSMutableAttributedString {
 		
 		var attributes = [NSAttributedStringKey: Any]()
 		
-		let spaceAttrString = NSAttributedString(string: " ", attributes: [.font: theme.font])
+        let attrs: [NSAttributedStringKey: Any] = [
+            .font : theme.font,
+        ]
+        
+		let spaceAttrString = NSAttributedString(string: " ", attributes: attrs)
 		let spaceWidth = spaceAttrString.size().width
 		
 		let themeInfo = ThemeInfo(theme: theme, spaceWidth: spaceWidth)

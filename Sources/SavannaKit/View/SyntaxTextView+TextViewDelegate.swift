@@ -14,6 +14,7 @@ import Foundation
 	import UIKit
 #endif
 
+@available(OSX 10.11, *)
 extension SyntaxTextView: InnerTextViewDelegate {
 	
 	func didUpdateCursorFloatingState() {
@@ -24,6 +25,7 @@ extension SyntaxTextView: InnerTextViewDelegate {
 	
 }
 
+@available(OSX 10.11, *)
 extension SyntaxTextView {
 
 	func isEditorPlaceholderSelected(selectedRange: NSRange, tokenRange: NSRange) -> Bool {
@@ -140,7 +142,7 @@ extension SyntaxTextView {
 }
 
 #if os(macOS)
-	
+	@available(OSX 10.11, *)
 	extension SyntaxTextView: NSTextViewDelegate {
 		
 		open func textView(_ textView: NSTextView, shouldChangeTextIn affectedCharRange: NSRange, replacementString: String?) -> Bool {
@@ -226,6 +228,7 @@ extension SyntaxTextView {
 	
 #endif
 
+@available(OSX 10.11, *)
 extension SyntaxTextView {
 
 	func shouldChangeText(insertingText: String) -> Bool {
