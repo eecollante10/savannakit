@@ -1,0 +1,484 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InnerTextViewDelegate"
+- "InnerTextView"
+provides-nominal:
+- "10SavannaKit21InnerTextViewDelegateP"
+- "10SavannaKit13InnerTextViewC"
+provides-member:
+- ["10SavannaKit21InnerTextViewDelegateP", ""]
+- ["10SavannaKit13InnerTextViewC", ""]
+provides-dynamic-lookup:
+- "gutterWidth"
+- "hideGutter"
+- "invalidateCachedParagraphs"
+- "updateGutterWidth"
+depends-top-level:
+- !private "*"
+- !private "+"
+- !private "??"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "CGFloat"
+- "InnerTextView"
+- "InnerTextViewDelegate"
+- "Int"
+- !private "NSSize"
+- "Paragraph"
+- "SyntaxColorTheme"
+- "TextView"
+- !private "max"
+depends-member:
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["SC6CGSizeV", "init"]
+- !private ["SC6CGSizeV", "width"]
+- !private ["s7CVarArgP", "CGFloat"]
+- !private ["s7CVarArgP", "NSSize"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "cachedParagraphs"]
+- !private ["s7CVarArgP", "gutterWidth"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "max"]
+- !private ["s7CVarArgP", "textContainerInset"]
+- !private ["s7CVarArgP", "theme"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CGFloat"]
+- !private ["s28CustomDebugStringConvertibleP", "NSSize"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "cachedParagraphs"]
+- !private ["s28CustomDebugStringConvertibleP", "gutterWidth"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "max"]
+- !private ["s28CustomDebugStringConvertibleP", "textContainerInset"]
+- !private ["s28CustomDebugStringConvertibleP", "theme"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "CGFloat"]
+- !private ["s23CustomStringConvertibleP", "NSSize"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "cachedParagraphs"]
+- !private ["s23CustomStringConvertibleP", "gutterWidth"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "max"]
+- !private ["s23CustomStringConvertibleP", "textContainerInset"]
+- !private ["s23CustomStringConvertibleP", "theme"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "width"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "width"]
+- !private ["s9EquatableP", "CGFloat"]
+- !private ["s9EquatableP", "NSSize"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "cachedParagraphs"]
+- !private ["s9EquatableP", "gutterWidth"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "max"]
+- !private ["s9EquatableP", "textContainerInset"]
+- !private ["s9EquatableP", "theme"]
+- !private ["s9EquatableP", "width"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["10SavannaKit11GutterStyleV", "minimumWidth"]
+- !private ["s8HashableP", "CGFloat"]
+- !private ["s8HashableP", "NSSize"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "cachedParagraphs"]
+- !private ["s8HashableP", "gutterWidth"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "max"]
+- !private ["s8HashableP", "textContainerInset"]
+- !private ["s8HashableP", "theme"]
+- ["10SavannaKit13InnerTextViewC", "CGFloat"]
+- ["10SavannaKit13InnerTextViewC", "InnerTextViewDelegate"]
+- ["10SavannaKit13InnerTextViewC", "Int"]
+- !private ["10SavannaKit13InnerTextViewC", "NSSize"]
+- ["10SavannaKit13InnerTextViewC", "Paragraph"]
+- ["10SavannaKit13InnerTextViewC", "SyntaxColorTheme"]
+- ["10SavannaKit13InnerTextViewC", "cachedParagraphs"]
+- ["10SavannaKit13InnerTextViewC", "deinit"]
+- ["10SavannaKit13InnerTextViewC", "gutterWidth"]
+- ["10SavannaKit13InnerTextViewC", "hideGutter"]
+- ["10SavannaKit13InnerTextViewC", "init"]
+- ["10SavannaKit13InnerTextViewC", "innerDelegate"]
+- ["10SavannaKit13InnerTextViewC", "invalidateCachedParagraphs"]
+- !private ["10SavannaKit13InnerTextViewC", "max"]
+- !private ["10SavannaKit13InnerTextViewC", "textContainerInset"]
+- ["10SavannaKit13InnerTextViewC", "theme"]
+- ["10SavannaKit13InnerTextViewC", "updateGutterWidth"]
+- ["10SavannaKit21InnerTextViewDelegateP", "didUpdateCursorFloatingState"]
+- !private ["So15NSAccessibilityP", "CGFloat"]
+- !private ["So15NSAccessibilityP", "NSSize"]
+- ["So15NSAccessibilityP", ""]
+- !private ["So15NSAccessibilityP", "cachedParagraphs"]
+- !private ["So15NSAccessibilityP", "gutterWidth"]
+- !private ["So15NSAccessibilityP", "init"]
+- !private ["So15NSAccessibilityP", "max"]
+- !private ["So15NSAccessibilityP", "textContainerInset"]
+- !private ["So15NSAccessibilityP", "theme"]
+- !private ["So30NSAccessibilityElementProtocolP", "CGFloat"]
+- !private ["So30NSAccessibilityElementProtocolP", "NSSize"]
+- ["So30NSAccessibilityElementProtocolP", ""]
+- !private ["So30NSAccessibilityElementProtocolP", "cachedParagraphs"]
+- !private ["So30NSAccessibilityElementProtocolP", "gutterWidth"]
+- !private ["So30NSAccessibilityElementProtocolP", "init"]
+- !private ["So30NSAccessibilityElementProtocolP", "max"]
+- !private ["So30NSAccessibilityElementProtocolP", "textContainerInset"]
+- !private ["So30NSAccessibilityElementProtocolP", "theme"]
+- !private ["So34NSAccessibilityNavigableStaticTextP", "CGFloat"]
+- !private ["So34NSAccessibilityNavigableStaticTextP", "NSSize"]
+- ["So34NSAccessibilityNavigableStaticTextP", ""]
+- !private ["So34NSAccessibilityNavigableStaticTextP", "cachedParagraphs"]
+- !private ["So34NSAccessibilityNavigableStaticTextP", "gutterWidth"]
+- !private ["So34NSAccessibilityNavigableStaticTextP", "init"]
+- !private ["So34NSAccessibilityNavigableStaticTextP", "max"]
+- !private ["So34NSAccessibilityNavigableStaticTextP", "textContainerInset"]
+- !private ["So34NSAccessibilityNavigableStaticTextP", "theme"]
+- !private ["So25NSAccessibilityStaticTextP", "CGFloat"]
+- !private ["So25NSAccessibilityStaticTextP", "NSSize"]
+- ["So25NSAccessibilityStaticTextP", ""]
+- !private ["So25NSAccessibilityStaticTextP", "cachedParagraphs"]
+- !private ["So25NSAccessibilityStaticTextP", "gutterWidth"]
+- !private ["So25NSAccessibilityStaticTextP", "init"]
+- !private ["So25NSAccessibilityStaticTextP", "max"]
+- !private ["So25NSAccessibilityStaticTextP", "textContainerInset"]
+- !private ["So25NSAccessibilityStaticTextP", "theme"]
+- !private ["So29NSAnimatablePropertyContainerP", "CGFloat"]
+- !private ["So29NSAnimatablePropertyContainerP", "NSSize"]
+- ["So29NSAnimatablePropertyContainerP", ""]
+- !private ["So29NSAnimatablePropertyContainerP", "cachedParagraphs"]
+- !private ["So29NSAnimatablePropertyContainerP", "gutterWidth"]
+- !private ["So29NSAnimatablePropertyContainerP", "init"]
+- !private ["So29NSAnimatablePropertyContainerP", "max"]
+- !private ["So29NSAnimatablePropertyContainerP", "textContainerInset"]
+- !private ["So29NSAnimatablePropertyContainerP", "theme"]
+- !private ["So25NSAppearanceCustomizationP", "CGFloat"]
+- !private ["So25NSAppearanceCustomizationP", "NSSize"]
+- ["So25NSAppearanceCustomizationP", ""]
+- !private ["So25NSAppearanceCustomizationP", "cachedParagraphs"]
+- !private ["So25NSAppearanceCustomizationP", "gutterWidth"]
+- !private ["So25NSAppearanceCustomizationP", "init"]
+- !private ["So25NSAppearanceCustomizationP", "max"]
+- !private ["So25NSAppearanceCustomizationP", "textContainerInset"]
+- !private ["So25NSAppearanceCustomizationP", "theme"]
+- !private ["So35NSCandidateListTouchBarItemDelegateP", "CGFloat"]
+- !private ["So35NSCandidateListTouchBarItemDelegateP", "NSSize"]
+- ["So35NSCandidateListTouchBarItemDelegateP", ""]
+- !private ["So35NSCandidateListTouchBarItemDelegateP", "cachedParagraphs"]
+- !private ["So35NSCandidateListTouchBarItemDelegateP", "gutterWidth"]
+- !private ["So35NSCandidateListTouchBarItemDelegateP", "init"]
+- !private ["So35NSCandidateListTouchBarItemDelegateP", "max"]
+- !private ["So35NSCandidateListTouchBarItemDelegateP", "textContainerInset"]
+- !private ["So35NSCandidateListTouchBarItemDelegateP", "theme"]
+- !private ["So16NSChangeSpellingP", "CGFloat"]
+- !private ["So16NSChangeSpellingP", "NSSize"]
+- ["So16NSChangeSpellingP", ""]
+- !private ["So16NSChangeSpellingP", "cachedParagraphs"]
+- !private ["So16NSChangeSpellingP", "gutterWidth"]
+- !private ["So16NSChangeSpellingP", "init"]
+- !private ["So16NSChangeSpellingP", "max"]
+- !private ["So16NSChangeSpellingP", "textContainerInset"]
+- !private ["So16NSChangeSpellingP", "theme"]
+- !private ["So8NSCodingP", "CGFloat"]
+- !private ["So8NSCodingP", "NSSize"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "cachedParagraphs"]
+- !private ["So8NSCodingP", "gutterWidth"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "max"]
+- !private ["So8NSCodingP", "textContainerInset"]
+- !private ["So8NSCodingP", "theme"]
+- !private ["So21NSDraggingDestinationP", "CGFloat"]
+- !private ["So21NSDraggingDestinationP", "NSSize"]
+- ["So21NSDraggingDestinationP", ""]
+- !private ["So21NSDraggingDestinationP", "cachedParagraphs"]
+- !private ["So21NSDraggingDestinationP", "gutterWidth"]
+- !private ["So21NSDraggingDestinationP", "init"]
+- !private ["So21NSDraggingDestinationP", "max"]
+- !private ["So21NSDraggingDestinationP", "textContainerInset"]
+- !private ["So21NSDraggingDestinationP", "theme"]
+- !private ["So16NSDraggingSourceP", "CGFloat"]
+- !private ["So16NSDraggingSourceP", "NSSize"]
+- ["So16NSDraggingSourceP", ""]
+- !private ["So16NSDraggingSourceP", "cachedParagraphs"]
+- !private ["So16NSDraggingSourceP", "gutterWidth"]
+- !private ["So16NSDraggingSourceP", "init"]
+- !private ["So16NSDraggingSourceP", "max"]
+- !private ["So16NSDraggingSourceP", "textContainerInset"]
+- !private ["So16NSDraggingSourceP", "theme"]
+- !private ["So23NSIgnoreMisspelledWordsP", "CGFloat"]
+- !private ["So23NSIgnoreMisspelledWordsP", "NSSize"]
+- ["So23NSIgnoreMisspelledWordsP", ""]
+- !private ["So23NSIgnoreMisspelledWordsP", "cachedParagraphs"]
+- !private ["So23NSIgnoreMisspelledWordsP", "gutterWidth"]
+- !private ["So23NSIgnoreMisspelledWordsP", "init"]
+- !private ["So23NSIgnoreMisspelledWordsP", "max"]
+- !private ["So23NSIgnoreMisspelledWordsP", "textContainerInset"]
+- !private ["So23NSIgnoreMisspelledWordsP", "theme"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "InnerTextViewDelegate"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "NSSize"]
+- ["So8NSObjectC", "Paragraph"]
+- ["So8NSObjectC", "SyntaxColorTheme"]
+- ["So8NSObjectC", "cachedParagraphs"]
+- ["So8NSObjectC", "gutterWidth"]
+- ["So8NSObjectC", "hideGutter"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "innerDelegate"]
+- ["So8NSObjectC", "invalidateCachedParagraphs"]
+- !private ["So8NSObjectC", "max"]
+- !private ["So8NSObjectC", "textContainerInset"]
+- ["So8NSObjectC", "theme"]
+- ["So8NSObjectC", "updateGutterWidth"]
+- !private ["So16NSObjectProtocolP", "CGFloat"]
+- !private ["So16NSObjectProtocolP", "NSSize"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "cachedParagraphs"]
+- !private ["So16NSObjectProtocolP", "gutterWidth"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "max"]
+- !private ["So16NSObjectProtocolP", "textContainerInset"]
+- !private ["So16NSObjectProtocolP", "theme"]
+- ["So11NSResponderC", "CGFloat"]
+- ["So11NSResponderC", "InnerTextViewDelegate"]
+- ["So11NSResponderC", "Int"]
+- !private ["So11NSResponderC", "NSSize"]
+- ["So11NSResponderC", "Paragraph"]
+- ["So11NSResponderC", "SyntaxColorTheme"]
+- ["So11NSResponderC", "cachedParagraphs"]
+- ["So11NSResponderC", "gutterWidth"]
+- ["So11NSResponderC", "hideGutter"]
+- ["So11NSResponderC", "init"]
+- ["So11NSResponderC", "innerDelegate"]
+- ["So11NSResponderC", "invalidateCachedParagraphs"]
+- !private ["So11NSResponderC", "max"]
+- !private ["So11NSResponderC", "textContainerInset"]
+- ["So11NSResponderC", "theme"]
+- ["So11NSResponderC", "updateGutterWidth"]
+- ["So6NSTextC", "CGFloat"]
+- ["So6NSTextC", "InnerTextViewDelegate"]
+- ["So6NSTextC", "Int"]
+- !private ["So6NSTextC", "NSSize"]
+- ["So6NSTextC", "Paragraph"]
+- ["So6NSTextC", "SyntaxColorTheme"]
+- ["So6NSTextC", "cachedParagraphs"]
+- ["So6NSTextC", "gutterWidth"]
+- ["So6NSTextC", "hideGutter"]
+- ["So6NSTextC", "init"]
+- ["So6NSTextC", "innerDelegate"]
+- ["So6NSTextC", "invalidateCachedParagraphs"]
+- !private ["So6NSTextC", "max"]
+- !private ["So6NSTextC", "textContainerInset"]
+- ["So6NSTextC", "theme"]
+- ["So6NSTextC", "updateGutterWidth"]
+- !private ["So11NSTextInputP", "CGFloat"]
+- !private ["So11NSTextInputP", "NSSize"]
+- ["So11NSTextInputP", ""]
+- !private ["So11NSTextInputP", "cachedParagraphs"]
+- !private ["So11NSTextInputP", "gutterWidth"]
+- !private ["So11NSTextInputP", "init"]
+- !private ["So11NSTextInputP", "max"]
+- !private ["So11NSTextInputP", "textContainerInset"]
+- !private ["So11NSTextInputP", "theme"]
+- !private ["So17NSTextInputClientP", "CGFloat"]
+- !private ["So17NSTextInputClientP", "NSSize"]
+- ["So17NSTextInputClientP", ""]
+- !private ["So17NSTextInputClientP", "cachedParagraphs"]
+- !private ["So17NSTextInputClientP", "gutterWidth"]
+- !private ["So17NSTextInputClientP", "init"]
+- !private ["So17NSTextInputClientP", "max"]
+- !private ["So17NSTextInputClientP", "textContainerInset"]
+- !private ["So17NSTextInputClientP", "theme"]
+- !private ["So31NSTextLayoutOrientationProviderP", "CGFloat"]
+- !private ["So31NSTextLayoutOrientationProviderP", "NSSize"]
+- ["So31NSTextLayoutOrientationProviderP", ""]
+- !private ["So31NSTextLayoutOrientationProviderP", "cachedParagraphs"]
+- !private ["So31NSTextLayoutOrientationProviderP", "gutterWidth"]
+- !private ["So31NSTextLayoutOrientationProviderP", "init"]
+- !private ["So31NSTextLayoutOrientationProviderP", "max"]
+- !private ["So31NSTextLayoutOrientationProviderP", "textContainerInset"]
+- !private ["So31NSTextLayoutOrientationProviderP", "theme"]
+- ["So10NSTextViewC", "CGFloat"]
+- ["So10NSTextViewC", "InnerTextViewDelegate"]
+- ["So10NSTextViewC", "Int"]
+- !private ["So10NSTextViewC", "NSSize"]
+- ["So10NSTextViewC", "Paragraph"]
+- ["So10NSTextViewC", "SyntaxColorTheme"]
+- ["So10NSTextViewC", ""]
+- ["So10NSTextViewC", "cachedParagraphs"]
+- ["So10NSTextViewC", "gutterWidth"]
+- ["So10NSTextViewC", "hideGutter"]
+- ["So10NSTextViewC", "init"]
+- ["So10NSTextViewC", "innerDelegate"]
+- ["So10NSTextViewC", "invalidateCachedParagraphs"]
+- !private ["So10NSTextViewC", "max"]
+- !private ["So10NSTextViewC", "textContainerInset"]
+- ["So10NSTextViewC", "theme"]
+- ["So10NSTextViewC", "updateGutterWidth"]
+- !private ["So18NSTouchBarDelegateP", "CGFloat"]
+- !private ["So18NSTouchBarDelegateP", "NSSize"]
+- ["So18NSTouchBarDelegateP", ""]
+- !private ["So18NSTouchBarDelegateP", "cachedParagraphs"]
+- !private ["So18NSTouchBarDelegateP", "gutterWidth"]
+- !private ["So18NSTouchBarDelegateP", "init"]
+- !private ["So18NSTouchBarDelegateP", "max"]
+- !private ["So18NSTouchBarDelegateP", "textContainerInset"]
+- !private ["So18NSTouchBarDelegateP", "theme"]
+- !private ["So18NSTouchBarProviderP", "CGFloat"]
+- !private ["So18NSTouchBarProviderP", "NSSize"]
+- ["So18NSTouchBarProviderP", ""]
+- !private ["So18NSTouchBarProviderP", "cachedParagraphs"]
+- !private ["So18NSTouchBarProviderP", "gutterWidth"]
+- !private ["So18NSTouchBarProviderP", "init"]
+- !private ["So18NSTouchBarProviderP", "max"]
+- !private ["So18NSTouchBarProviderP", "textContainerInset"]
+- !private ["So18NSTouchBarProviderP", "theme"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "CGFloat"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "NSSize"]
+- ["So33NSUserInterfaceItemIdentificationP", ""]
+- !private ["So33NSUserInterfaceItemIdentificationP", "cachedParagraphs"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "gutterWidth"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "init"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "max"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "textContainerInset"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "theme"]
+- !private ["So26NSUserInterfaceValidationsP", "CGFloat"]
+- !private ["So26NSUserInterfaceValidationsP", "NSSize"]
+- ["So26NSUserInterfaceValidationsP", ""]
+- !private ["So26NSUserInterfaceValidationsP", "cachedParagraphs"]
+- !private ["So26NSUserInterfaceValidationsP", "gutterWidth"]
+- !private ["So26NSUserInterfaceValidationsP", "init"]
+- !private ["So26NSUserInterfaceValidationsP", "max"]
+- !private ["So26NSUserInterfaceValidationsP", "textContainerInset"]
+- !private ["So26NSUserInterfaceValidationsP", "theme"]
+- ["So6NSViewC", "CGFloat"]
+- ["So6NSViewC", "InnerTextViewDelegate"]
+- ["So6NSViewC", "Int"]
+- !private ["So6NSViewC", "NSSize"]
+- ["So6NSViewC", "Paragraph"]
+- ["So6NSViewC", "SyntaxColorTheme"]
+- ["So6NSViewC", "cachedParagraphs"]
+- ["So6NSViewC", "gutterWidth"]
+- ["So6NSViewC", "hideGutter"]
+- ["So6NSViewC", "init"]
+- ["So6NSViewC", "innerDelegate"]
+- ["So6NSViewC", "invalidateCachedParagraphs"]
+- !private ["So6NSViewC", "max"]
+- !private ["So6NSViewC", "textContainerInset"]
+- ["So6NSViewC", "theme"]
+- ["So6NSViewC", "updateGutterWidth"]
+- !private ["s7NumericP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["10SavannaKit16SyntaxColorThemeP", "gutterStyle"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CGFloat"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "NSSize"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "cachedParagraphs"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "gutterWidth"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "max"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "textContainerInset"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "theme"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSSize"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cachedParagraphs"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "gutterWidth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "max"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textContainerInset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "theme"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+depends-nominal:
+- !private "s19BinaryFloatingPointP"
+- !private "12CoreGraphics7CGFloatV"
+- !private "SC6CGSizeV"
+- "s7CVarArgP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s13FloatingPointP"
+- !private "10SavannaKit11GutterStyleV"
+- "s8HashableP"
+- "10SavannaKit13InnerTextViewC"
+- "10SavannaKit21InnerTextViewDelegateP"
+- "So15NSAccessibilityP"
+- "So30NSAccessibilityElementProtocolP"
+- "So34NSAccessibilityNavigableStaticTextP"
+- "So25NSAccessibilityStaticTextP"
+- "So29NSAnimatablePropertyContainerP"
+- "So25NSAppearanceCustomizationP"
+- "So35NSCandidateListTouchBarItemDelegateP"
+- "So16NSChangeSpellingP"
+- "So8NSCodingP"
+- "So21NSDraggingDestinationP"
+- "So16NSDraggingSourceP"
+- "So23NSIgnoreMisspelledWordsP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So11NSResponderC"
+- "So6NSTextC"
+- "So11NSTextInputP"
+- "So17NSTextInputClientP"
+- "So31NSTextLayoutOrientationProviderP"
+- "So10NSTextViewC"
+- "So18NSTouchBarDelegateP"
+- "So18NSTouchBarProviderP"
+- "So33NSUserInterfaceItemIdentificationP"
+- "So26NSUserInterfaceValidationsP"
+- "So6NSViewC"
+- !private "s7NumericP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "10SavannaKit16SyntaxColorThemeP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "48c1f96a173f3b23ad6f7a864c7e4a58"

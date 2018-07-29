@@ -1,0 +1,451 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EditorPlaceholderState"
+- "SyntaxTextViewLayoutManager"
+provides-nominal:
+- "10SavannaKit22EditorPlaceholderStateO"
+- "10SavannaKit27SyntaxTextViewLayoutManagerC"
+provides-member:
+- ["10SavannaKit22EditorPlaceholderStateO", ""]
+- ["So8NSStringC", ""]
+- ["10SavannaKit27SyntaxTextViewLayoutManagerC", ""]
+- ["So8NSStringC", "editorPlaceholder"]
+provides-dynamic-lookup:
+- "drawGlyphs"
+depends-top-level:
+- "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BezierPath"
+- !private "CGFloat"
+- "CGPoint"
+- !private "CGRect"
+- !private "Color"
+- "EditorPlaceholderState"
+- "NSAttributedStringKey"
+- !private "NSGraphicsContext"
+- "NSLayoutManager"
+- "NSRange"
+- "StringLiteralType"
+- "SyntaxTextViewLayoutManager"
+depends-member:
+- !private ["Sa", "init"]
+- !private ["s23BidirectionalCollectionP", "editorPlaceholder"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s7CVarArgP", "BezierPath"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "Color"]
+- !private ["s7CVarArgP", "EditorPlaceholderState"]
+- ["s7CVarArgP", "NSAttributedStringKey"]
+- !private ["s7CVarArgP", "NSGraphicsContext"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "characterRange"]
+- !private ["s7CVarArgP", "current"]
+- !private ["s7CVarArgP", "darkGray"]
+- !private ["s7CVarArgP", "drawGlyphs"]
+- !private ["s7CVarArgP", "editorPlaceholder"]
+- !private ["s7CVarArgP", "enumerateAttribute"]
+- !private ["s7CVarArgP", "fill"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "setFill"]
+- !private ["s7CVarArgP", "textStorage"]
+- !private ["s7CVarArgP", "white"]
+- !private ["s7CVarArgP", "withAlphaComponent"]
+- !private ["s10CollectionP", "editorPlaceholder"]
+- ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "editorPlaceholder"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "BezierPath"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "Color"]
+- !private ["s28CustomDebugStringConvertibleP", "EditorPlaceholderState"]
+- ["s28CustomDebugStringConvertibleP", "NSAttributedStringKey"]
+- !private ["s28CustomDebugStringConvertibleP", "NSGraphicsContext"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "characterRange"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "darkGray"]
+- !private ["s28CustomDebugStringConvertibleP", "drawGlyphs"]
+- !private ["s28CustomDebugStringConvertibleP", "editorPlaceholder"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerateAttribute"]
+- !private ["s28CustomDebugStringConvertibleP", "fill"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "setFill"]
+- !private ["s28CustomDebugStringConvertibleP", "textStorage"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- !private ["s28CustomDebugStringConvertibleP", "withAlphaComponent"]
+- ["s29CustomPlaygroundQuickLookableP", "NSAttributedStringKey"]
+- !private ["s29CustomPlaygroundQuickLookableP", "editorPlaceholder"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "editorPlaceholder"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "BezierPath"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "Color"]
+- !private ["s23CustomStringConvertibleP", "EditorPlaceholderState"]
+- ["s23CustomStringConvertibleP", "NSAttributedStringKey"]
+- !private ["s23CustomStringConvertibleP", "NSGraphicsContext"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "characterRange"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "darkGray"]
+- !private ["s23CustomStringConvertibleP", "drawGlyphs"]
+- !private ["s23CustomStringConvertibleP", "editorPlaceholder"]
+- !private ["s23CustomStringConvertibleP", "enumerateAttribute"]
+- !private ["s23CustomStringConvertibleP", "fill"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "setFill"]
+- !private ["s23CustomStringConvertibleP", "textStorage"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- !private ["s23CustomStringConvertibleP", "withAlphaComponent"]
+- !private ["s9DecodableP", "editorPlaceholder"]
+- ["s9DecodableP", "init"]
+- ["10SavannaKit22EditorPlaceholderStateO", "__derived_enum_equals"]
+- ["10SavannaKit22EditorPlaceholderStateO", "active"]
+- ["10SavannaKit22EditorPlaceholderStateO", "deinit"]
+- ["10SavannaKit22EditorPlaceholderStateO", "hashValue"]
+- ["10SavannaKit22EditorPlaceholderStateO", "inactive"]
+- !private ["s9EncodableP", "editorPlaceholder"]
+- ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "BezierPath"]
+- !private ["s9EquatableP", "CGRect"]
+- !private ["s9EquatableP", "Color"]
+- !private ["s9EquatableP", "EditorPlaceholderState"]
+- ["s9EquatableP", "NSAttributedStringKey"]
+- !private ["s9EquatableP", "NSGraphicsContext"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "active"]
+- !private ["s9EquatableP", "characterRange"]
+- !private ["s9EquatableP", "current"]
+- !private ["s9EquatableP", "darkGray"]
+- !private ["s9EquatableP", "drawGlyphs"]
+- !private ["s9EquatableP", "editorPlaceholder"]
+- !private ["s9EquatableP", "enumerateAttribute"]
+- !private ["s9EquatableP", "fill"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "inactive"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "setFill"]
+- !private ["s9EquatableP", "textStorage"]
+- !private ["s9EquatableP", "white"]
+- !private ["s9EquatableP", "withAlphaComponent"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "NSAttributedStringKey"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "editorPlaceholder"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "NSAttributedStringKey"]
+- !private ["s26ExpressibleByStringLiteralP", "editorPlaceholder"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "NSAttributedStringKey"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "editorPlaceholder"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "BezierPath"]
+- !private ["s8HashableP", "CGRect"]
+- !private ["s8HashableP", "Color"]
+- !private ["s8HashableP", "EditorPlaceholderState"]
+- ["s8HashableP", "NSAttributedStringKey"]
+- !private ["s8HashableP", "NSGraphicsContext"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "active"]
+- !private ["s8HashableP", "characterRange"]
+- !private ["s8HashableP", "current"]
+- !private ["s8HashableP", "darkGray"]
+- !private ["s8HashableP", "drawGlyphs"]
+- !private ["s8HashableP", "editorPlaceholder"]
+- !private ["s8HashableP", "enumerateAttribute"]
+- !private ["s8HashableP", "fill"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "inactive"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "setFill"]
+- !private ["s8HashableP", "textStorage"]
+- !private ["s8HashableP", "white"]
+- !private ["s8HashableP", "withAlphaComponent"]
+- !private ["s25LosslessStringConvertibleP", "editorPlaceholder"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "editorPlaceholder"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["So18NSAttributedStringC", "enumerateAttribute"]
+- !private ["So12NSBezierPathC", "fill"]
+- !private ["So12NSBezierPathC", "init"]
+- !private ["So8NSCodingP", "BezierPath"]
+- !private ["So8NSCodingP", "CGRect"]
+- !private ["So8NSCodingP", "Color"]
+- !private ["So8NSCodingP", "EditorPlaceholderState"]
+- ["So8NSCodingP", "NSAttributedStringKey"]
+- !private ["So8NSCodingP", "NSGraphicsContext"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "characterRange"]
+- !private ["So8NSCodingP", "darkGray"]
+- !private ["So8NSCodingP", "drawGlyphs"]
+- !private ["So8NSCodingP", "enumerateAttribute"]
+- !private ["So8NSCodingP", "fill"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "setFill"]
+- !private ["So8NSCodingP", "textStorage"]
+- !private ["So8NSCodingP", "white"]
+- !private ["So8NSCodingP", "withAlphaComponent"]
+- !private ["So7NSColorC", "darkGray"]
+- !private ["So7NSColorC", "setFill"]
+- !private ["So7NSColorC", "white"]
+- !private ["So7NSColorC", "withAlphaComponent"]
+- ["So9NSCopyingP", "NSAttributedStringKey"]
+- !private ["So9NSCopyingP", "darkGray"]
+- !private ["So9NSCopyingP", "enumerateAttribute"]
+- !private ["So9NSCopyingP", "fill"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "setFill"]
+- !private ["So9NSCopyingP", "white"]
+- !private ["So9NSCopyingP", "withAlphaComponent"]
+- !private ["So14NSGlyphStorageP", "BezierPath"]
+- !private ["So14NSGlyphStorageP", "CGRect"]
+- !private ["So14NSGlyphStorageP", "Color"]
+- !private ["So14NSGlyphStorageP", "EditorPlaceholderState"]
+- !private ["So14NSGlyphStorageP", "NSGraphicsContext"]
+- ["So14NSGlyphStorageP", ""]
+- !private ["So14NSGlyphStorageP", "characterRange"]
+- !private ["So14NSGlyphStorageP", "drawGlyphs"]
+- !private ["So14NSGlyphStorageP", "init"]
+- !private ["So14NSGlyphStorageP", "textStorage"]
+- !private ["So17NSGraphicsContextC", "current"]
+- ["So21NSItemProviderReadingP", "NSAttributedStringKey"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "NSAttributedStringKey"]
+- ["So21NSItemProviderWritingP", "init"]
+- !private ["So15NSLayoutManagerC", "BezierPath"]
+- !private ["So15NSLayoutManagerC", "CGFloat"]
+- ["So15NSLayoutManagerC", "CGPoint"]
+- !private ["So15NSLayoutManagerC", "CGRect"]
+- !private ["So15NSLayoutManagerC", "Color"]
+- !private ["So15NSLayoutManagerC", "EditorPlaceholderState"]
+- !private ["So15NSLayoutManagerC", "NSGraphicsContext"]
+- ["So15NSLayoutManagerC", "NSRange"]
+- ["So15NSLayoutManagerC", ""]
+- !private ["So15NSLayoutManagerC", "characterRange"]
+- ["So15NSLayoutManagerC", "drawGlyphs"]
+- ["So15NSLayoutManagerC", "init"]
+- !private ["So15NSLayoutManagerC", "textStorage"]
+- !private ["So25NSMutableAttributedStringC", "enumerateAttribute"]
+- ["So16NSMutableCopyingP", "NSAttributedStringKey"]
+- !private ["So16NSMutableCopyingP", "enumerateAttribute"]
+- ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "BezierPath"]
+- !private ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "CGPoint"]
+- !private ["So8NSObjectC", "CGRect"]
+- !private ["So8NSObjectC", "Color"]
+- !private ["So8NSObjectC", "EditorPlaceholderState"]
+- ["So8NSObjectC", "NSAttributedStringKey"]
+- !private ["So8NSObjectC", "NSGraphicsContext"]
+- ["So8NSObjectC", "NSRange"]
+- !private ["So8NSObjectC", "characterRange"]
+- !private ["So8NSObjectC", "current"]
+- !private ["So8NSObjectC", "darkGray"]
+- ["So8NSObjectC", "drawGlyphs"]
+- !private ["So8NSObjectC", "enumerateAttribute"]
+- !private ["So8NSObjectC", "fill"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "setFill"]
+- !private ["So8NSObjectC", "textStorage"]
+- !private ["So8NSObjectC", "white"]
+- !private ["So8NSObjectC", "withAlphaComponent"]
+- !private ["So16NSObjectProtocolP", "BezierPath"]
+- !private ["So16NSObjectProtocolP", "CGRect"]
+- !private ["So16NSObjectProtocolP", "Color"]
+- !private ["So16NSObjectProtocolP", "EditorPlaceholderState"]
+- ["So16NSObjectProtocolP", "NSAttributedStringKey"]
+- !private ["So16NSObjectProtocolP", "NSGraphicsContext"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "characterRange"]
+- !private ["So16NSObjectProtocolP", "current"]
+- !private ["So16NSObjectProtocolP", "darkGray"]
+- !private ["So16NSObjectProtocolP", "drawGlyphs"]
+- !private ["So16NSObjectProtocolP", "enumerateAttribute"]
+- !private ["So16NSObjectProtocolP", "fill"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "setFill"]
+- !private ["So16NSObjectProtocolP", "textStorage"]
+- !private ["So16NSObjectProtocolP", "white"]
+- !private ["So16NSObjectProtocolP", "withAlphaComponent"]
+- ["So19NSPasteboardReadingP", "NSAttributedStringKey"]
+- !private ["So19NSPasteboardReadingP", "darkGray"]
+- !private ["So19NSPasteboardReadingP", "enumerateAttribute"]
+- ["So19NSPasteboardReadingP", "init"]
+- !private ["So19NSPasteboardReadingP", "setFill"]
+- !private ["So19NSPasteboardReadingP", "white"]
+- !private ["So19NSPasteboardReadingP", "withAlphaComponent"]
+- ["So19NSPasteboardWritingP", "NSAttributedStringKey"]
+- !private ["So19NSPasteboardWritingP", "darkGray"]
+- !private ["So19NSPasteboardWritingP", "enumerateAttribute"]
+- ["So19NSPasteboardWritingP", "init"]
+- !private ["So19NSPasteboardWritingP", "setFill"]
+- !private ["So19NSPasteboardWritingP", "white"]
+- !private ["So19NSPasteboardWritingP", "withAlphaComponent"]
+- ["So14NSSecureCodingP", "NSAttributedStringKey"]
+- !private ["So14NSSecureCodingP", "darkGray"]
+- !private ["So14NSSecureCodingP", "enumerateAttribute"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "setFill"]
+- !private ["So14NSSecureCodingP", "white"]
+- !private ["So14NSSecureCodingP", "withAlphaComponent"]
+- ["So8NSStringC", "NSAttributedStringKey"]
+- ["So8NSStringC", "init"]
+- !private ["So13NSTextStorageC", "enumerateAttribute"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "editorPlaceholder"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "editorPlaceholder"]
+- ["s8SequenceP", "init"]
+- !private ["SS", "editorPlaceholder"]
+- ["SS", "init"]
+- !private ["s14StringProtocolP", "editorPlaceholder"]
+- ["s14StringProtocolP", "init"]
+- !private ["10SavannaKit27SyntaxTextViewLayoutManagerC", "BezierPath"]
+- !private ["10SavannaKit27SyntaxTextViewLayoutManagerC", "CGFloat"]
+- ["10SavannaKit27SyntaxTextViewLayoutManagerC", "CGPoint"]
+- !private ["10SavannaKit27SyntaxTextViewLayoutManagerC", "CGRect"]
+- !private ["10SavannaKit27SyntaxTextViewLayoutManagerC", "Color"]
+- !private ["10SavannaKit27SyntaxTextViewLayoutManagerC", "EditorPlaceholderState"]
+- !private ["10SavannaKit27SyntaxTextViewLayoutManagerC", "NSGraphicsContext"]
+- ["10SavannaKit27SyntaxTextViewLayoutManagerC", "NSRange"]
+- !private ["10SavannaKit27SyntaxTextViewLayoutManagerC", "characterRange"]
+- ["10SavannaKit27SyntaxTextViewLayoutManagerC", "deinit"]
+- ["10SavannaKit27SyntaxTextViewLayoutManagerC", "drawGlyphs"]
+- ["10SavannaKit27SyntaxTextViewLayoutManagerC", "init"]
+- !private ["10SavannaKit27SyntaxTextViewLayoutManagerC", "textStorage"]
+- !private ["s16TextOutputStreamP", "editorPlaceholder"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "editorPlaceholder"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "editorPlaceholder"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "editorPlaceholder"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "editorPlaceholder"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "editorPlaceholder"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "darkGray"]
+- !private ["s26_ExpressibleByColorLiteralP", "setFill"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["s26_ExpressibleByColorLiteralP", "withAlphaComponent"]
+- !private ["s33_ExpressibleByStringInterpolationP", "editorPlaceholder"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "NSAttributedStringKey"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BezierPath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Color"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "EditorPlaceholderState"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NSAttributedStringKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSGraphicsContext"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "characterRange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "darkGray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "drawGlyphs"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "enumerateAttribute"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fill"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setFill"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textStorage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "withAlphaComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "editorPlaceholder"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "editorPlaceholder"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "10SavannaKit22EditorPlaceholderStateO"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So18NSAttributedStringC"
+- !private "So12NSBezierPathC"
+- "So8NSCodingP"
+- !private "So7NSColorC"
+- "So9NSCopyingP"
+- "So14NSGlyphStorageP"
+- !private "So17NSGraphicsContextC"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So15NSLayoutManagerC"
+- !private "So25NSMutableAttributedStringC"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So19NSPasteboardReadingP"
+- "So19NSPasteboardWritingP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "So13NSTextStorageC"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- "SS"
+- "s14StringProtocolP"
+- "10SavannaKit27SyntaxTextViewLayoutManagerC"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "001723469b4b2d711e92397e3e0b7451"

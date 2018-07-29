@@ -1,0 +1,81 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LineNumbersStyle"
+- "GutterStyle"
+- "SyntaxColorTheme"
+provides-nominal:
+- "10SavannaKit16LineNumbersStyleV"
+- "10SavannaKit11GutterStyleV"
+- "10SavannaKit16SyntaxColorThemeP"
+provides-member:
+- ["10SavannaKit16LineNumbersStyleV", ""]
+- ["10SavannaKit11GutterStyleV", ""]
+- ["10SavannaKit16SyntaxColorThemeP", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "CGFloat"
+- "Color"
+- "Font"
+- "GutterStyle"
+- "LineNumbersStyle"
+- "NSAttributedStringKey"
+- "SyntaxColorTheme"
+- "Token"
+depends-member:
+- ["10SavannaKit11GutterStyleV", "CGFloat"]
+- ["10SavannaKit11GutterStyleV", "Color"]
+- ["10SavannaKit11GutterStyleV", "backgroundColor"]
+- ["10SavannaKit11GutterStyleV", "init"]
+- ["10SavannaKit11GutterStyleV", "minimumWidth"]
+- ["10SavannaKit16LineNumbersStyleV", "Color"]
+- ["10SavannaKit16LineNumbersStyleV", "Font"]
+- ["10SavannaKit16LineNumbersStyleV", "font"]
+- ["10SavannaKit16LineNumbersStyleV", "init"]
+- ["10SavannaKit16LineNumbersStyleV", "textColor"]
+- ["10SavannaKit16SyntaxColorThemeP", "Color"]
+- ["10SavannaKit16SyntaxColorThemeP", "Font"]
+- ["10SavannaKit16SyntaxColorThemeP", "GutterStyle"]
+- ["10SavannaKit16SyntaxColorThemeP", "LineNumbersStyle"]
+- ["10SavannaKit16SyntaxColorThemeP", "NSAttributedStringKey"]
+- ["10SavannaKit16SyntaxColorThemeP", "Token"]
+- ["10SavannaKit16SyntaxColorThemeP", "attributes"]
+- ["10SavannaKit16SyntaxColorThemeP", "backgroundColor"]
+- ["10SavannaKit16SyntaxColorThemeP", "font"]
+- ["10SavannaKit16SyntaxColorThemeP", "globalAttributes"]
+- ["10SavannaKit16SyntaxColorThemeP", "gutterStyle"]
+- ["10SavannaKit16SyntaxColorThemeP", "lineNumbersStyle"]
+depends-nominal:
+- "10SavannaKit11GutterStyleV"
+- "10SavannaKit16LineNumbersStyleV"
+- "10SavannaKit16SyntaxColorThemeP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "0e4e6a6955454122b0f9d5ccb2803cf0"
